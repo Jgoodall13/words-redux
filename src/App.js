@@ -11,7 +11,6 @@ const mapStateToProps = state => {
 const mapDispatchToProps = (dispatch) => {
   return {
     onInputChange: (event) => {
-      console.log(event.target.value)
       return dispatch(showOnPage(event.target.value))
     }
   }
@@ -23,7 +22,8 @@ class App extends Component {
     return (
       <div className="App">
         <input type="text" placeholder="just type" onChange={onInputChange} />
-        <span>{words}</span>
+        <br />
+        <span style={{color: "hotPink", fontSize: "30px"}}>{words}</span>
       </div>
     );
   }
