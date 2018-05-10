@@ -1,6 +1,6 @@
-#Simple Redux
+# Simple Redux
 
-##Technologies
+## Technologies
 React & Redux
 
 This project is a simple demonstration on how to add Redux to a React project. 
